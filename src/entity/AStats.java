@@ -1,5 +1,8 @@
 package entity;
 
+// this class represents the shared stat attributes between all Entities
+// including creatures and heroes
+
 public abstract class AStats {
     public int accuracy;  // chance to hit
     public int attack;  // maximum hit

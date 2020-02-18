@@ -17,7 +17,7 @@ A Hero is an abstract class:
 	- a human class extends Hero
 	- a lich class extends Hero
 	- a lizardman class extends Hero
-	- an ork class extends Hero
+	- an orc class extends Hero
 	- a shade class extends Hero
 
 	Fields

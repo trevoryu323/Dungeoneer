@@ -11,7 +11,7 @@ public class Main {
         
         System.out.println("");
 
-        AEntity slime = new slimeball(2);
+        AEntity slime = new slimeball(10);
         System.out.print(slime.stat.accuracy);
         System.out.println("");
     }
