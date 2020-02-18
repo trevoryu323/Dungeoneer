@@ -1,0 +1,24 @@
+Entity Architecture:
+
+An Entity is an abstract class:
+    - String name
+    - int level
+    - AStats stats
+
+
+A Creature is an abstract class:
+	- A SlimeBall class extends Creature
+
+A Hero is an abstract class:
+
+	Hero Extensions
+	- an elf class extends Hero
+	- a goblin class extends Hero
+	- a human class extends Hero
+	- a lich class extends Hero
+	- a lizardman class extends Hero
+	- an ork class extends Hero
+	- a shade class extends Hero
+
+	Fields
+	name <string>
