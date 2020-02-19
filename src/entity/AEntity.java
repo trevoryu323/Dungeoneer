@@ -8,7 +8,7 @@ public abstract class AEntity {
 
 
     // Returns a formatted string of the Entity fields
-	public String inspect() {
+	public String inspectEntity() {
         return "\nName: " + name +
         "\nLevel: " + level +
         "\nStats: " + stat.inspectStats();

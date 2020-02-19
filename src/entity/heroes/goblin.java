@@ -3,10 +3,10 @@ package entity.heroes;
 import entity.AHero;
 import entity.heroStat;
 
-public class elf extends AHero{
+public class goblin extends AHero{
 
-    public elf(int lvl) {
-        this.name = "elf";
+    public goblin(int lvl) {
+        this.name = "goblin";
         this.level = lvl;
         this.stat = new heroStat();
         this.stat.accuracy = stat.scaleStat(1, lvl);

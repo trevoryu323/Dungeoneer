@@ -1,5 +1,6 @@
-import entity.AEntity;
-import entity.creature.slimeball;
+import entity.*;
+import entity.creature.*;
+import entity.heroes.*;
 
 public class Main {
 
@@ -11,7 +12,9 @@ public class Main {
         
         System.out.println("");
 
-        AEntity slime = new slimeball(100);
-        System.out.println(slime.inspect());
+        ACreature slime = new slimeball(12);
+        AHero elf = new elf(1);
+        System.out.println(elf.inspectEntity());
+        System.out.println(slime.inspectEntity());
     }
 }
