@@ -1,21 +1,21 @@
-package entity.creature;
+package entity.heroes;
 
-import entity.ACreature;
-import entity.creatureStat;
+import entity.AHero;
+import entity.heroStat;
 
-public class slimeball extends ACreature {
-    
-    public slimeball(int lvl) {
-        this.name = "slimeball";
+public class elf extends AHero{
+
+    public elf(int lvl) {
+        this.name = "elf";
         this.level = lvl;
-        this.stat = new creatureStat();
+        this.stat = new heroStat();
         this.stat.accuracy = stat.scaleStat(1, lvl);
         this.stat.attack = stat.scaleStat(1, lvl);
         this.stat.defense = stat.scaleStat(1, lvl);
         this.stat.hitpoints = stat.scaleStat(1, lvl);
         this.stat.speed = stat.scaleStat(1, lvl);
         this.stat.weight = stat.scaleStat(1, lvl);
-    }
 
-        
+    }
 }
+
