@@ -1,0 +1,36 @@
+
+Text Adventure - Dungeoneer
+
+			CHARACTERIZATION
+Hero Race: Human, Lizardman, Goblin, Elf, Ork, Lich, Shade
+
+Classes: Fighter, Mage, Ranger, Summoner, Assassin
+
+Blessing: Eye of Artemis (+10% accuracy), 
+
+Game Attributes
+
+Plate levels - Copper (I), Bronze (II), Iron (III), Gold (IV), Mithril (V), Orichalcum (VI), Adamantite (VII), Champion (VIII)
+
+Currency
+
+50x Coppers = 1 Silver
+25 Silvers = Gold
+
+Inventory
+3x Healing potion
+2x Mana potion
+12x unequipped slots
+6x equipped slots - head, chest, torso, feet, hand1, hand2
+
+Character Levels
+Base XP = 100
+Exponent = 1.25
+
+Level XP = 100 ^ 1.25
+
+					Story Line
+Heroes Guild
+
+Start as a basic adventurer - short sword / wooden shield / 25 coppers
+
