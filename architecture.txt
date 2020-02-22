@@ -5,9 +5,12 @@ An Entity is an abstract class:
     - int level
     - AStats stats
 
-
 A Creature is an abstract class:
-	- A SlimeBall class extends Creature
+	- A slimeBall class extends Creature
+    - A skeleton class extends Creature
+
+    Fields
+
 
 A Hero is an abstract class:
 
@@ -21,4 +24,4 @@ A Hero is an abstract class:
 	- a shade class extends Hero
 
 	Fields
-	name <string>
+	
