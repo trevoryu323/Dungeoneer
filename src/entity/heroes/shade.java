@@ -15,6 +15,7 @@ public class shade extends AHero{
         this.stat.hitpoints = stat.scaleStat(1, lvl);
         this.stat.speed = stat.scaleStat(1, lvl);
         this.stat.weight = stat.scaleStat(1, lvl);
+        this.flee = false;
     }
 
     
